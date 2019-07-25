@@ -11,6 +11,5 @@ fizzbuzz(9)
 print('\nTerceiro teste:')
 fizzbuzz(5)
 
-# minha ideia era tentar poupar que ele faça duas verificações iguais do resto 3 e resto 5
-# não usar number % 3 == 0 && number % 5 == 0 (pois ele ja viu antes) , mas não consegui arrumar
-# um jeito que ele printasse fizzbuzz junto. Ele ta printando os dois separadamente
+# Usei o end no final do print para evitar colocar mais um if com && , pois se os dois forem
+# divisíveis, um irá ser escrito junto ao outro
