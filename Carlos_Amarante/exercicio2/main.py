@@ -1,6 +1,6 @@
 def fizzbuzz(number):
     if (number % 3 == 0):
-        print('fizz')
+        print('fizz', end='')
     if (number % 5 == 0):
         print('buzz')
 
@@ -8,7 +8,7 @@ print('Primeiro teste:')
 fizzbuzz(15)
 print('Segundo teste:')
 fizzbuzz(9)
-print('Terceiro teste:')
+print('\nTerceiro teste:')
 fizzbuzz(5)
 
 # minha ideia era tentar poupar que ele faça duas verificações iguais do resto 3 e resto 5
