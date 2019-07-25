@@ -5,8 +5,8 @@
 # pip freeze -l > requirements.txt
 # deactivate
 
-# virtualenv venv
-# source venv/bin/activate
+# virtualenv venv2
+# source venv2/bin/activate
 # pip install -r requirements.txt
 # python main.py
 # deactivate
