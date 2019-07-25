@@ -1,6 +1,6 @@
 # virtualenv venv
 # source venv/bin/activate
-# python main.py
+# python main.py 3
 # deactivate
 
 import sys
