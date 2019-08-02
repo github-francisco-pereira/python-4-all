@@ -10,5 +10,5 @@ pylint = "*"
 python_version = "3.7"
 
 [packages]
-requests = "*"
-flake8 = "*"
+requests = "==2.22.0"
+flake8 = "==3.7.8"
