@@ -16,6 +16,7 @@ A cada aula o que foi passado estará na estrutura `aulas/aula_x`. Para você fa
 - Aula 1 - Apresentação sobre Python + Principios + Exemplos + Onde usar + Exercicios.
 - Aula 2 - Estruturas de repetição + Exemplos + Exercicios.
 - Aula 3 - Princípios de Orientação a Objetos com Python.
+- Aula 3.1 - Princípios de Orientação a Objetos com Python parte 2.
 - Aula 3.1 - Trabalhando com testes unitários.
 - Aula 4 - Criando uma aplicação que interage com o banco de Dados.
 - Aula 5 - Criando uma aplicação web.
