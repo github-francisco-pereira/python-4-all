@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/home/carlos.amarante/.local/share/virtualenvs/CarlosAmarante-wT6z9h3J/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true
+}
