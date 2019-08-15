@@ -3,11 +3,11 @@ def is_prime(current_number):
         return False
     else:
         auxiliar_number = current_number - 1
-        i = 2
-        while (1 < i and i <= auxiliar_number):
-            if current_number % i == 0:
+        auxiliar_count = 2
+        while (1 < auxiliar_count and auxiliar_count <= auxiliar_number):
+            if current_number % auxiliar_count == 0:
                 return False
-            i += 1
+            auxiliar_count += 1
         print(current_number)
         return True
 
