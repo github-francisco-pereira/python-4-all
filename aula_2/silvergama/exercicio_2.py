@@ -1,13 +1,15 @@
 # Exercício 2
-# Crie um arquivo .py que receba uma lista com 10 números. 
+# Crie um arquivo .py que receba uma lista com 10 números.
 # Crie uma função que retorne o primeiro número primo encontrado nessa lista.
 # Lembre se de usar a melhor estrutura de repetição para isso.
 
+
 def find_first_prime(numbers):
-    i=0
+    i = 0
     while i <= len(numbers) and not is_prime(numbers[i]):
-        i+=1
+        i += 1
     return numbers[i]
+
 
 def is_prime(number):
     number = int(number)
@@ -26,5 +28,5 @@ def is_prime(number):
 
     return True
 
-numbers = [6,7,8,9]
+numbers = [6, 7, 8, 9, 10, 11, 12, 22, 33, 35]
 print(find_first_prime(numbers))

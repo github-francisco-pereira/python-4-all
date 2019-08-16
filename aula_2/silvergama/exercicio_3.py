@@ -1,5 +1,5 @@
 # Exercício 3
-# Crie um arquivo .py que tenha um dicionario com 10 usuários. 
+# Crie um arquivo .py que tenha um dicionario com 10 usuários.
 # O dicionário deve conter as chaves: `nome`, `apelido` e `data_nascimento`.
 # Crie uma função que retorne somente uma lista com os apelidos.
 
@@ -55,6 +55,7 @@ persons = [
         "date_of_birth": "20-04-1980"
     }
 ]
+
 
 def get_nickname(person):
     return person['nickname']
