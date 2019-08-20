@@ -3,11 +3,6 @@ Exercício 2
 Crie um arquivo .py que receba uma lista com 10 números.
 Crie uma função que retorne o primeiro número primo encontrado nessa lista.
 Lembre se de usar a melhor estrutura de repetição para isso.
-
-[ ] - A: se a lista for vazia: informar que não existe número primo
-[ ] - B: se existir primo: informar que não existe
-[ ] - C: se só existir negativos: informar que não existe número primo
-[ ] - D: se existir número primo: retornar o primeiro
 """
 
 
